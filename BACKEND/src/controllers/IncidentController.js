@@ -1,4 +1,4 @@
-const connection = require('../database/connection');
+const connection = require('../database/connection'); //CONENCTADO AO BANCO DE DADOS
 
 module.exports = {
     async index(request, response) {

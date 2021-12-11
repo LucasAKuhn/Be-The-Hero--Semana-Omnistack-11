@@ -1,5 +1,5 @@
 const crypto = require('crypto'); //importanto pacote para criação de primary key automatitica
-const connection = require('../database/connection');
+const connection = require('../database/connection'); //CONECTADO AO BANCO DE DADOS
 
 module.exports = {
     async index(request, response) {
